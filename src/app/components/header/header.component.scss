@@ -1,0 +1,34 @@
+@import '../../../styles.scss';
+
+
+.header {
+  background-color: black;
+  color: bisque;
+  height: 130px;
+  padding-top: 50px;
+  padding-left:120px;    
+}
+.main{
+  display: flex;  
+}
+.ecpd .dropdown-toggle::after {
+  margin-left: 2.255em !important;
+}
+.profile .dropdown-toggle::after {
+  margin-left: 10.255em !important;
+}
+button {
+  color: white !important;
+  border-color: white !important;
+}
+.dropdown-item {
+  color: black !important;
+}
+.btn-outline-primary:hover { 
+  background-color: white !important;
+  color: black !important;
+ }
+.content{
+  margin-left:10px;
+  margin-right: 100px;
+}

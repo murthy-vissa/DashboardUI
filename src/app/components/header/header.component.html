@@ -1,0 +1,33 @@
+<div class="header">
+  <div class="main">
+    <div class="d-inline-block ecpd" ngbDropdown #myDrop3="ngbDropdown">
+      <button class="btn btn-outline-primary mr-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop3.open()">ECPD</button>
+      <div ngbDropdownMenu aria-labelledby="dropdownManual">
+        <button ngbDropdownItem>ECPD 1</button>
+        <button ngbDropdownItem>ECPD 2</button>
+        <button ngbDropdownItem>ECPD 3</button>
+      </div>
+    </div>
+    <div class="d-inline-block profile" ngbDropdown #myDrop4="ngbDropdown">
+      <button class="btn btn-outline-primary mr-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop4.open()">Profile</button>
+      <div ngbDropdownMenu aria-labelledby="dropdownManual">
+        <button ngbDropdownItem>Profile - 1</button>
+        <button ngbDropdownItem>Profile - 2</button>
+        <button ngbDropdownItem>Profile - 3</button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="number">4</div>
+      <span>Totalaccounts</span>
+    </div>
+    <div class="content">
+      <div class="number">2302</div>
+      <span>Totallines</span>
+    </div>
+    <div class="content">
+      <div class="number">2910</div>
+      <span>Totaldevices</span>
+    </div>
+  </div>
+</div>
+
